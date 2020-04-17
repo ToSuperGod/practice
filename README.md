@@ -13,5 +13,17 @@ Github：https://github.com/ToSuperGod
 
 技能清单
 -- 
-了解QT开发
+了解QT开发  
 数据库相关：MySQL
+
+主要项目
+--
+
+
+工作经历
+--
+
+
+曾获荣誉
+--
+
