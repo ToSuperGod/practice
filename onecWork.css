@@ -1,0 +1,123 @@
+.toptitle{
+	text-align: center;
+}
+.topic_introduce{
+	padding: 0 0 0 220px;
+}
+
+
+.topic_quest_1 {
+		padding: 0 0 0 200px;
+	}
+.topic_answ_1{
+	padding: 0 0 0 220px;
+}
+.topic_quest_2 {
+		padding: 0 0 0 200px;
+	}
+.topic_answ_2{
+	padding: 0 0 0 220px;
+}
+.topic_quest_3 {
+		padding: 0 0 0 200px;
+	}
+.topic_answer_3{
+	padding: 0 0 0 220px;
+}
+.topic_quest_4 {
+		padding: 0 0 0 200px;
+	}
+.topic_answer_4{
+	padding: 0 0 0 220px;
+}
+.topic_quest_5 {
+		padding: 0 0 0 200px;
+	}
+.topic_answer_5{
+	padding: 0 0 0 220px;
+}
+.topic_quest_6 {
+		padding: 0 0 0 200px;
+	}
+.topic_answer_6{
+	padding: 0 0 0 220px;
+}
+.topic_quest_7 {
+		padding: 0 0 0 200px;
+	}
+.topic_answer_7{
+	padding: 0 0 0 220px;
+}
+.topic_quest_8 {
+		padding: 0 0 0 200px;
+	}
+.topic_answer_8{
+	padding: 0 0 0 220px;
+}
+.topic_quest_9 {
+		padding: 0 0 0 200px;
+	}
+.topic_answer_9{
+	padding: 0 0 0 220px;
+}
+.topic_quest_10 {
+		padding: 0 0 0 200px;
+	}
+.topic_answer_10{
+	padding: 0 0 0 220px;
+}
+.topic_quest_11 {
+		padding: 0 0 0 200px;
+	}
+.topic_answer_11{
+	padding: 0 0 0 220px;
+}
+.topic_quest_12 {
+		padding: 0 0 0 200px;
+	}
+.topic_answer_12{
+	padding: 0 0 0 220px;
+}
+.topic_quest_13 {
+		padding: 0 0 0 200px;
+	}
+.topic_answer_13{
+	padding: 0 0 0 220px;
+}
+.topic_quest_14 {
+		padding: 0 0 0 200px;
+	}
+.topic_answer_14{
+	padding: 0 0 0 220px;
+}
+table{
+				width: 60%;
+				background: #ccc;
+				margin: 10px auto;
+				border-collapse: collapse;
+			}
+			th,td{
+				height: 25px;
+				width: 100px;
+				line-height: 25px;
+				text-align: center;
+				border: 1px solod #ccc;
+			}
+			th{
+				background: #eee;
+				font-weight: normal;
+			}
+			tr{
+				background: #fff;
+			}
+			tr:hover{
+				background: #cc0;
+			}
+			td a{
+				color: #06f;
+				text-decoration: none;
+			}
+			td a:hover{
+				color: #06f;
+				text-decoration: underline;
+			}
