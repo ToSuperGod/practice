@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>问卷登录</title>
+		<link rel="icon" href="./imgs/TB.ico" type="image/x-icon"/>
+		<link rel="stylesheet" type="text/css" href="questionaire_longin.css"/>
+	</head>
+	<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script type="text/javascript" src="./questionaire_longin.js"></script>
+	<body>
+		
+		<div id="top_b" class="top_top" style="display: block;">
+			<div class="logintitle" id="test">
+			<h2>欢迎登录</h2>
+			</div>
+		<form id="login" name="login" action="./onecWork.html" method="get" >
+			<div class="username">
+				<label>称昵：</label>
+			<input type="text" id="username" name="username" value="" placeholder="Username" onchange="checkUserName()"/>
+			
+			</div>
+			<div class="passWord">
+				<label>密码：</label>
+			<input type="password" id="password" name="password" value="" placeholder="Password" />
+			</div>
+			<div class="Login">
+				<input type="submit" value="登录" style=" width: 100px;"/>
+			</div>
+			<div id="Register" class="Register">
+				<input type="button" value="注册" style="width: 100px;" onclick="switchover()"/>
+			</div>
+		</form>
+		</div>
+		
+		
+		<div id="top_c" class="top_top_c" style="display: none;">
+			<div id="top_c_redister">
+				<h2>欢迎您的加入</h2>
+			</div>
+			<form id="Register_" class="Register_" >
+			<div id="Re_username">
+				<label>称&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;昵：</label>
+				<input type="text" id="re_username" class="re_username" value="" placeholder="数组字母组合" onchange="UserName()" />
+			</div>
+			<div id="re_Password" class="re_Password">
+				<label>密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码：</label>
+				<input type="password" name="re_password" id="re_password" value="" placeholder="大于六位"  onchange="len()"/>
+				<br />
+				<label>确认密码：</label>
+				<input type="password" name="res_password" id="res_password" value="" placeholder="用于确认" onchange="checkPassword()"/>
+			</div>
+			<div id="re_phone" class="re_phone">
+				<label>手机号码：</label>
+				<input type="text" name="reph_" id="reph_" value="" placeholder="用于修改密码" onchange="lenphon()"/>
+			</div>
+			<div id="re_Register" class="re_Register">
+				<input type="button" value="注册" style="width: 100px;" onclick="hintSuccee()"/>
+			</div>
+		</form>
+		</div>
+		
+	</body>
+	
+</html>
