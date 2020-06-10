@@ -13,7 +13,7 @@ Github：https://github.com/ToSuperGod
 
 技能清单
 -- 
-了解QT开发 python爬虫  PaddlePaddle  linux系统  C  C++  java  前端语言  
+了解QT开发 微信小程序开发 python爬虫  PaddlePaddle  linux系统  C  C++  java  前端语言  
 数据库相关：MySQL
 
 主要项目
