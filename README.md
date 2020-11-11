@@ -5,5 +5,5 @@
   
 bank.py：python实现银行家算法  实现环境：Python3.7.0 PyCharm win10  
 
-接沙包算法
+get_earthbags.py:接沙包算法  
 
